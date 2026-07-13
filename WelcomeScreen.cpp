@@ -381,14 +381,14 @@ void myUpdate()
             //Bullet motion
             if(bIsCircleRightMotion==false && trBulletX <= 1.5f)
             {
-                trBulletX = trBulletX + 0.0005f;
+                trBulletX = trBulletX + 0.0003f;
             }
             else
             {
                 bIsCircleRightMotion = true;
                 if(bIsCircleRightMotion==true && trBulletX >=0.0f)
                 {
-                    trBulletX = trBulletX - 0.0005f;
+                    trBulletX = trBulletX - 0.0003f;
                 }
                 else
                 {
